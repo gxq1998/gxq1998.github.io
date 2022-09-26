@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-06-15 07:59:00-0400
+date: 2022-07-04 07:59:00-0400
 inline: true
 ---
 
-I was awarded Chinese American Society of Nuclear Medicine & Molecular Imaging Third Place Young Investigator Award. I also gave an oral presentation in SNMMI 2022.
+One paper accepted by Medical Image Analysis (IF=13.828).
