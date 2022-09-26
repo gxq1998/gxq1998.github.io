@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. Ph.D. Candidate, Yale University. Email: xueqi.guo at yale.edu
+subtitle: Ph.D. Candidate, Yale University. Email: xueqi.guo at yale.edu
 
 profile:
   align: right
-  image: 278578507_1454508694967551_1275982030445929936_n.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>330 Cedar St</p>
