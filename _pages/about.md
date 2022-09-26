@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate, Yale University. Email: xueqi.guo at yale.edu
+subtitle: Ph.D. Candidate, Yale University.
 
 profile:
   align: right
