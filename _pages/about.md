@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'> </a>Ph.D. Candidate, Yale University. Email: xueqi.guo at yale.edu
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 278578507_1454508694967551_1275982030445929936_n.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>330 Cedar St</p>
-    <p>Yale School of Medicine, Room LMP108</p>
+    <p>330 Cedar St, Room LMP108</p>
+    <p>Yale School of Medicine</p>
     <p>New Haven, CT 06511</p>
 
 news: true  # includes a list of news items
