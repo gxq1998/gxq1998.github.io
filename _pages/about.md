@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Address. Contacts. Moto. Etc.
+subtitle: Ph.D. Candidate, Yale University. Email: xueqi.guo at yale.edu
 
 profile:
   align: right
