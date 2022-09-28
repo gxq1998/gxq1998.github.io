@@ -22,4 +22,4 @@ I am a fourth-year PhD candidate at the School of Engineering and Applied Scienc
 
 My research interests are medical image analysis and medical computer vision, specializing in but not limited to registration, denoising, and segmentation for dynamic PET, CT, and MRI.
 
-I am actively looking for summer internship positions in summer 2023. Please feel free to contact me at xueqi.guo@yale.edu and find my CV [here](#).
+I am actively looking for summer internship positions in summer 2023. Please feel free to contact me at [xueqi.guo@yale.edu](mailto:xueqi.guo@yale.edu) and find my CV [here](#).
