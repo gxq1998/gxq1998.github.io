@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: Publications [[Google Scholar]](https://scholar.google.com/citations?user=F1i4oscAAAAJ)
 description: Publications by categories in reversed chronological order. 
 years: [2022]
 nav: true
