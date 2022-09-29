@@ -76,14 +76,16 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Medical computer vision
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Image registration
+        - Image segmentation
+        - Image denoising
+    - title: Medical imaging
       items:
-        - Description 1.
-        - Description 2.
+        - Dynamic PET
+        - CT
+        - MRI, fMRI
 
 - title: Other Interests
   type: list
