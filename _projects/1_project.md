@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SLCN challenge
-description: Surface Learning for Clinical Neuroimaging
+description: Xueqi Guo, Jiyao Wang, Matthew Rosenblatt, Javid Dadashkarimi, Huili Sun, Angeliki Pollatou, Alexander Dufford, and Dustin Scheinost
 img: assets/img/SLCN_Banner_Final.jpeg
 importance: 1
 category: work
