@@ -18,6 +18,7 @@ category: work
 </div>
 
 Surface Learning for Clinical Neuroimaging (SLCN) challenge
+
 Xueqi Guo, Jiyao Wang, Matthew Rosenblatt, Javid Dadashkarimi, Huili Sun, Angeliki Pollatou, Alexander Dufford, and Dustin Scheinost
 
 We used a 1-D Convolutional Neural Network (CNN) to predict gestational age at birth from four neuroimaging surface metrics: sulcal depth, cortical thickness, curvature, and T1/T2 myelin maps. 
