@@ -1,24 +1,15 @@
 ---
 layout: page
-title: project 1
+title: Surface Learning for Clinical Neuroimaging (SLCN) challenge
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/SLCN_Banner_Final.jpg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Surface Learning for Clinical Neuroimaging (SLCN) challenge is a new MICCAI workshop aimed at promoting the development of deep learning methods suited for cortical surface data. Participants are tasked with predicting developmental phenotypes (age at birth) from cortical surface data acquired as part of the Developing Human Connectome Project.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We used a 1-D Convolutional Neural Network (CNN) to predict gestational age at birth from four neuroimaging surface metrics: sulcal depth, cortical thickness, curvature, and T1/T2 myelin maps. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
