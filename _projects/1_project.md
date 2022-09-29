@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Surface Learning for Clinical Neuroimaging (SLCN) challenge
-description: a project with a background image
-img: assets/img/SLCN_Banner_Final.jpg
+title: SLCN challenge
+description: Surface Learning for Clinical Neuroimaging
+img: assets/img/SLCN_Banner_Final.jpeg
 importance: 1
 category: work
 ---
