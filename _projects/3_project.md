@@ -2,11 +2,14 @@
 layout: page
 title: Adolescent Bone Age Prediction
 description: Adolescent Bone Age Prediction from Hand X-ray Images, in Fall 2018.
-img: assets/img/7.jpg
+img: assets/img/vgg16.jpg
 redirect: https://unsplash.com
 importance: 3
 category: work
 ---
+
+{% include figure.html path="assets/img/vgg16.jpg" title="Network Structure" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/regression.jpg" title="The Image Regressions" class="img-fluid rounded z-depth-1" %}
 
 Adolescent Bone Age Prediction from Hand X-ray Images, in Fall 2018.
 
