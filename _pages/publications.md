@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications [[Google Scholar]](https://scholar.google.com/citations?user=F1i4oscAAAAJ)
-description: Publications by categories in reversed chronological order. 
+title: Publications 
+description: [Google Scholar](https://scholar.google.com/citations?user=F1i4oscAAAAJ)
 years: [2022]
 nav: true
 nav_order: 1
