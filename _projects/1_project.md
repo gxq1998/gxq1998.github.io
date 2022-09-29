@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SLCN challenge
-description: Xueqi Guo, Jiyao Wang, Matthew Rosenblatt, Javid Dadashkarimi, Huili Sun, Angeliki Pollatou, Alexander Dufford, and Dustin Scheinost
+description: In MICCAI 2022.
 img: assets/img/SLCN_Banner_Final.jpeg
 importance: 1
 category: work
@@ -17,7 +17,8 @@ category: work
     Surface Learning for Clinical Neuroimaging (SLCN) challenge
 </div>
 
-Surface Learning for Clinical Neuroimaging (SLCN) challenge is a new MICCAI workshop aimed at promoting the development of deep learning methods suited for cortical surface data. Participants are tasked with predicting developmental phenotypes (age at birth) from cortical surface data acquired as part of the Developing Human Connectome Project.
+Surface Learning for Clinical Neuroimaging (SLCN) challenge
+Xueqi Guo, Jiyao Wang, Matthew Rosenblatt, Javid Dadashkarimi, Huili Sun, Angeliki Pollatou, Alexander Dufford, and Dustin Scheinost
 
 We used a 1-D Convolutional Neural Network (CNN) to predict gestational age at birth from four neuroimaging surface metrics: sulcal depth, cortical thickness, curvature, and T1/T2 myelin maps. 
 
