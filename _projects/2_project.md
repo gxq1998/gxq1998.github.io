@@ -8,7 +8,9 @@ category: work
 ---
 
 Old Timer: a polypharmacy assistant for seniors
+
 Xueqi Guo, Yifan Li, and Diyuan Zhu
+
 In MedHacks 2021
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
