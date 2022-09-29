@@ -3,82 +3,76 @@
   contents:
     - name: Full Name
       value: Xueqi Guo
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Contact
+      value: [xueqi.guo@yale.edu](mailto:xueqi.guo@yale.edu)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. 
+      institution: Yale University, New Haven, CT
+      year: 2024 (Expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA: 4.0/4.0 (All Honors)
+        - Advisors: Prof. Chi Liu and Prof. Nicha Dvornek
+        - Thesis prospectus: Inter-frame subject motion correction for dynamic PET using deep learning methods
+
+
+    - title: B.S.
+      institution: Shanghai Jiao Tong University
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
+        - GPA: 3.75/4.0 (88.15/100), Ranking: 4/56
+        - Major in Biomedical Engineering, Minor in Music
+        - Undergraduate thesis: Image Segmentation and Fusion Methods for Brain Surgery Planning
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Image Analytics Intern
+      institution: Siemens Healthineers, Malvern, PA.
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Weakly supervised abnormal texture segmentation for interstitial lung diseases (ILD)
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+             - Expanded Self-supervised Equivalent Attention Mechanism (SEAM) for the high heterogeneity of ILD lesions.
+             - Introduced an adaptive background thresholding strategy for the brightness differences in activation maps.
+
+    - title: Undergraduate Research Intern
+      institution: Johns Hopkins University, Baltimore, MD.
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - title: Low dose CT denoising by generative adversarial network (GAN)
+          contents:
+            - Incorporated sharpness detection into the generator to an advanced U-net and achieved better performance handling streak artifacts (PSNR = 35.30).
+            - Optimized the performance of GAN by ascertaining the optimal number of residual layers in the generator and modifying the discriminator and loss function, thereby boosting the network's efficiency by 30\%.
+        - title: Analyzation of Denoising Network Responses
+          contents:
+            - Analyzed the denoising network's impulse response and disc response under different attenuation coefficient values; obtained the average and standard deviation maps.
+            - Tested the network's learning pattern by phantom and real CT image datasets in different noise levels and different reconstruction algorithms.
+            - Examined the network's sensitivity threshold of lung nodule radius through simulation.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - MICCAI NIH Participation Award
+        - Chinese American SNMMI Third Place Young Investigator Award
+    - year: 2021
       items: 
-        - Max Planck Medal
-
+        - IEEE MIC Fourth Place Christopher J. Thompson Best Student Paper Award 
+        - IEEE MIC Trainee Grant
+        - MedHacks FastForward U Sponsor Prize; Track Prize Finalist **(Top 5)**
+    - year: 2019
+      items: 
+        - Yale Ph.D. Fellowship
+        - Outstanding Graduates of Shanghai Jiao Tong University **(Top 5%)**
+    - year: 2018
+      items: 
+        - First-Class Academic Excellence Scholarship of Shanghai Jiao Tong University **(Top 2%)**
+        
 - title: Academic Interests
   type: nested_list
   contents:
@@ -94,4 +88,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Singing, traveling, baking.
