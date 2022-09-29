@@ -14,7 +14,7 @@
       year: 2024 (Expected)
       description:
         - GPA 4.0/4.0 (All Honors)
-        - Advisors Prof. Chi Liu and Prof. Nicha Dvornek
+        - Advised by Prof. Chi Liu and Prof. Nicha Dvornek
         - Thesis prospectus "Inter-frame subject motion correction for dynamic PET using deep learning methods"
 
 
@@ -44,8 +44,8 @@
       description:
         - title: Low dose CT denoising by generative adversarial network (GAN)
           contents:
-            - Incorporated sharpness detection into the generator to an advanced U-net and achieved better performance handling streak artifacts (PSNR = 35.30).
-            - Optimized the performance of GAN by ascertaining the optimal number of residual layers in the generator and modifying the discriminator and loss function, thereby boosting the network's efficiency by 30\%.
+            - Incorporated sharpness detection into the generator and achieved better performance handling streak artifacts (PSNR = 35.30).
+            - Optimized the performance of GAN by ascertaining the optimal number of residual layers in the generator and modifying the discriminator and loss function, thereby boosting the network's efficiency by 30%.
         - title: Analyzation of Denoising Network Responses
           contents:
             - Analyzed the denoising network's impulse response and disc response under different attenuation coefficient values; obtained the average and standard deviation maps.
