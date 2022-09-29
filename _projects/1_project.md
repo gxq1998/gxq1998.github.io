@@ -7,65 +7,20 @@ importance: 1
 category: work
 ---
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SLCN_Banner_Final.jpeg" title="SLCN banner" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Surface Learning for Clinical Neuroimaging (SLCN) challenge
+</div>
+
 Surface Learning for Clinical Neuroimaging (SLCN) challenge is a new MICCAI workshop aimed at promoting the development of deep learning methods suited for cortical surface data. Participants are tasked with predicting developmental phenotypes (age at birth) from cortical surface data acquired as part of the Developing Human Connectome Project.
 
 We used a 1-D Convolutional Neural Network (CNN) to predict gestational age at birth from four neuroimaging surface metrics: sulcal depth, cortical thickness, curvature, and T1/T2 myelin maps. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The input of the CNN model is one hemisphere of the surface data, with the concatenated four neuroimaging surface metrics as the feature channels. Both left and right hemispheres were used in training, and the two hemispheres were considered as two separate instances. The three 1-D convolutional layers in the CNN model each have a kernel size of 7, 5, or 3 with a stride of 1. Each layer has an output channel count of 32, 64, and 64, respectively. A Rectified Linear Unit (ReLU) was applied as the activation function for each convolutional layer. following a batch normalization layer. A max pooling layer with a sliding window size of 2 and a stride of 2 was added after each convolutional layer. Then, three successive fully connected (dense) layers with hidden sizes of 64, 32, and 1 provided the final output as the predicted gestational age at birth. The ReLU activation function was applied after the first and second dense layers. The loss function was the mean squared error between the ground-truth gestational age and the predicted gestational age.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The CNN model was implemented by PyTorch and trained on a NVIDIA GeForce RTX 3070 GPU. The model was optimized by an Adam optimizer with batch size as 200, learning rate as 1e-4, L2 lambda as 0.01, and other default parameters. The training process was terminated when the validation loss did not further decrease in 50 epochs or when the maximum 200 epochs was reached. Two separate CNN models were trained and tested for template space and native space respectively.
