@@ -7,6 +7,28 @@ nav: true
 nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+<table id="tbTeaching" border="0" width="100%">
+	<tbody>
+		<tr>
+			<td>2019-2020 Spring</td><td>Teaching Assistant</td><td>CSIT5410 - Recognition Systems</td>
+		</tr>
+		<tr>
+			<td>2019-2020 Fall</td><td>Teaching Assistant</td><td>COMP4421 - Image Processing</td>
+		</tr>
+		<tr>
+			<td>2018-2019 Fall</td><td>Teaching Assistant</td><td>COMP4421 - Image Processing</td>
+		</tr>
+		<tr>
+			<td>2017-2018 Fall</td><td>Teaching Assistant</td><td>COMP4421 - Image Processing</td>
+		</tr>
+		<tr>
+			<td>2017-2018 Fall</td><td>Teaching Assistant</td><td>CSIT5410 - Recognition Systems</td>
+		</tr>
+		<tr>
+			<td>2017-2018 Spring</td><td>Teaching Assistant</td><td>MSBD5010 - Image Processing and Analysis</td>
+		</tr>
+		<tr>
+			<td>2016-2017 Spring</td><td>Teaching Assistant</td><td>MSBD5010 - Image Processing and Analysis</td>
+		</tr>
+	</tbody>
+</table>
