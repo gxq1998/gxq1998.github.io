@@ -45,12 +45,10 @@
         - title: Low dose CT denoising by generative adversarial network (GAN)
           contents:
             - Incorporated sharpness detection into the generator and achieved better performance handling streak artifacts (PSNR = 35.30).
-            - Optimized the performance of GAN by ascertaining the optimal number of residual layers in the generator and modifying the discriminator and loss function, thereby boosting the network's efficiency by 30%.
         - title: Analyzation of Denoising Network Responses
           contents:
-            - Analyzed the denoising network's impulse response and disc response under different attenuation coefficient values; obtained the average and standard deviation maps.
-            - Tested the network's learning pattern by phantom and real CT image datasets in different noise levels and different reconstruction algorithms.
-            - Examined the network's sensitivity threshold of lung nodule radius through simulation.
+            - Analyzed the impulse response and disc response under different attenuation coefficient values.
+            - Tested the learning pattern by phantom and real CT image datasets and examined the sensitivity threshold of lung nodule radius through simulation.
 
 
 - title: Honors and Awards
