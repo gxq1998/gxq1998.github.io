@@ -13,70 +13,55 @@ Xueqi Guo, Yifan Li, and Diyuan Zhu
 
 In MedHacks 2021
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Intuition
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Polypharmacy plays an important role in aged patients
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Memorizing multiple drug instructions is tedious and challenging
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Missing a dose or overdose is harmful
+
+Drug interactions may decrease efficacy and introduce side effects
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Ideas
+
+Our goal is to assist aged patients under polypharmacy, we hope to build an integrated applicaion to make things in life such as taking medcines on time to be as simple and easy as possible for elder people. 
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+## Technology
+
+Easily “scan-and-input” the prescription using Optical Character Recognition (OCR), courtesy of Google Cloud Vision API
+Personalized drug schedule on daily routine, and record meals, exercise, and medical history based on Pandas Dataframe
+Used Flask library in Python to build a website interface with integrated application
+Developed a prototypical interface for mobile application and built succinct and senior-friendly interface (Adobe XD)
+
+
+
+## Demo
+
+### Demo1: Website Interface & Application
+
+By using the flask package with Python built-in server, we could instantiate a simple but succinct interface that realized most of our planned functionalities, we relied on numpy and pandas dataframes to store user information and took advantage of Google Cloud Vision API with its OCR technology.
+
+### Demo2:
+
+https://xd.adobe.com/view/38a6474b-cfed-4e70-b3e2-0a73df62a3f8-6df5/?fullscreen
+
+
+## Future
+
+Expand the pharmacy and disease dataset
+Improve the functionality (ex. Integrate telemedicine: live chat and video visiting the doctor, Emergency calls, etc.) and layouts of web application
+Implement framework for supporting mobile application
+
+
+
+## Contribution
+
+Yifan Li - Group leader and mainly responsible for realizing the mobile application user interface in prototype format
+Xueqi Guo - Constructed the core program logic and backend dataframes of the application
+Diyuan (Berry) Zhu - Supported web frontend design with Python and Flask along with the integration from the backend
+
+
