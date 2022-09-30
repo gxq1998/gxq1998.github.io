@@ -2,7 +2,7 @@
 layout: page
 title: Old Timer
 description: A polypharmacy assistant for seniors. In MedHacks 2021.
-img: assets/img/3.jpg
+img: assets/img/gallery.jpeg
 importance: 2
 category: work
 ---
@@ -39,7 +39,7 @@ Developed a prototypical interface for mobile application and built succinct and
 
 
 
-## Demo
+## Demo [[YouTube]](https://youtu.be/VksyxeCPox4)
 
 ### Demo1: Website Interface & Application
 
