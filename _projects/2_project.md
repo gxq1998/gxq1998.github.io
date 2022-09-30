@@ -61,7 +61,9 @@ Implement framework for supporting mobile application
 ## Contribution
 
 Yifan Li - Group leader and mainly responsible for realizing the mobile application user interface in prototype format
+
 Xueqi Guo - Constructed the core program logic and backend dataframes of the application
+
 Diyuan (Berry) Zhu - Supported web frontend design with Python and Flask along with the integration from the backend
 
 
