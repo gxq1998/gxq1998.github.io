@@ -23,4 +23,4 @@ I am a final-year PhD candidate at the School of Engineering and Applied Science
 
 My research interests are medical image analysis and medical computer vision, specializing in but not limited to registration, generation, segmentation, and denoising for dynamic PET, CT, and MRI.
 
-I am actively looking for full-time positions in 2024. Please feel free to contact me at [xueqi.guo@yale.edu](mailto:xueqi.guo@yale.edu) and find my CV [here](https://gxq1998.github.io/assets/pdf/CV_Jul23.pdf).
+I am actively looking for **full-time positions**. Please feel free to contact me at [xueqi.guo@yale.edu](mailto:xueqi.guo@yale.edu) and find my CV [here](https://gxq1998.github.io/assets/pdf/CV_Jul23.pdf).
