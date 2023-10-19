@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate, Yale University.
 
 profile:
   align: right
-  image: IMG_4157.jpg
+  image: IMG_4157.JPG
   image_circular: false # crops the image to make it circular
   address: >
     <p>330 Cedar St, Room LMP108</p>
