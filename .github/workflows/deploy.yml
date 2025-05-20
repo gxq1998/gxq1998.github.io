@@ -20,10 +20,10 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0.2'
-        bundler-cache: true
-    - name: Upgrade Bundler
-      run: |
-        gem install bundler
+        bundler: '~> 2.3'
+
+    - name: Upgrade Bundler to 2.3+
+      run: gem install bundler -v "~> 2.3"
         bundler -v
     - name: Clean old gems (optional)
       run: |
