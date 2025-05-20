@@ -21,6 +21,14 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
+    - name: Upgrade Bundler
+      run: |
+        gem install bundler
+        bundler -v
+    - name: Clean old gems (optional)
+      run: |
+        bundle clean --force || true
+
     - name: Install deps
       run: |
         npm install -g mermaid.cli
