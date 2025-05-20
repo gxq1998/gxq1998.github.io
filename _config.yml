@@ -6,9 +6,9 @@ title: Xueqi Guo # the website title (if blank, full name will be used instead)
 first_name: Xueqi
 middle_name: 
 last_name: Guo
-email: xueqi.guo@yale.edu
+email: xueqi.guo@siemens-healthineers.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. candidate, Yale University
+  Research Scientist, Siemens Healthineers
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -94,7 +94,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Last updated on 11/10/2023.
+  Last updated on 05/30/2025.
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
