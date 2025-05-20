@@ -9,9 +9,8 @@ profile:
   image: IMG_4157.JPG
   image_circular: false # crops the image to make it circular
   address: >
-    <p>330 Cedar St, Room LMP108</p>
-    <p>Yale School of Medicine</p>
-    <p>New Haven, CT 06511</p>
+    <p>40 Liberty Blvd</p>
+    <p>Malvern, PA 19355</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
